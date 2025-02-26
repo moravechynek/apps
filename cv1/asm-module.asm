@@ -21,7 +21,7 @@ section .text
 
 convert_mask_int_to_bytes:
     mov eax, [ g_netmask_int ]
-    mov ebx, eax
+    ;mov ebx, eax
 
     mov [ g_netmask_bytes + 3 ], al
     mov [ g_netmask_bytes + 2 ], ah
